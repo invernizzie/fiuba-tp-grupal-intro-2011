@@ -1,0 +1,13 @@
+@ IN SOA ns3.resto.salta.dc.fi.uba.ar. admin.resto.salta.dc.fi.uba.ar. (
+                        2006081401;
+                        28800; 
+                        604800;
+                        604800;
+                        86400 
+)
+
+                    IN    NS     ns3.resto.salta.dc.fi.uba.ar.
+1		    		IN    PTR	 quito01
+2		    		IN    PTR	 quito02
+
+
