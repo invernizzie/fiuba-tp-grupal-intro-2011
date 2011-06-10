@@ -1,0 +1,11 @@
+@ IN SOA ns2.oran.salta.dc.fi.uba.ar. admin.oran.salta.dc.fi.uba.ar. (
+                        2006081401;
+                        28800; 
+                        604800;
+                        604800;
+                        86400 
+)
+
+                    IN    NS     ns2.oran.salta.dc.fi.uba.ar.
+1	            IN    PTR	 buenosaires01
+2	            IN    PTR	 buenosaires02

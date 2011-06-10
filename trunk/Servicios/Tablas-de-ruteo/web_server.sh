@@ -9,6 +9,9 @@ do
 ifconfig $INT down
 done
 
+#Borramos la tabla de routeo
+ip route flush default
+
 ifconfig $INTERFACE up
 
 ifconfig $INTERFACE 192.168.8.1

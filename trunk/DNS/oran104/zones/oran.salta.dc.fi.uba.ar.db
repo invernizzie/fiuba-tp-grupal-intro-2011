@@ -1,0 +1,20 @@
+
+oran.salta.dc.fi.uba.ar.      IN      SOA     ns2.oran.salta.dc.fi.uba.ar. admin.oran.salta.dc.fi.uba.ar. (
+                                                        2006081401
+                                                        28800
+                                                        3600
+                                                        604800
+                                                        38400
+ )
+
+oran.salta.dc.fi.uba.ar.      IN      NS              ns2.oran.salta.dc.fi.uba.ar.
+
+ns2              IN      A       10.54.5.66
+riodejaneiro02   IN      A       10.54.5.66
+riodejaneiro04	 IN      A       10.54.5.68
+sanpablo03	 IN      A       10.31.6.3
+sanpablo02	 IN      A       10.31.6.2
+buenosaires01	 IN      A       192.168.8.1
+buenosaires02	 IN      A       192.168.8.2
+bogota01	 IN      A       10.11.6.193
+bogota02	 IN      A       10.11.6.193
