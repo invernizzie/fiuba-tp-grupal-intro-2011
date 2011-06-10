@@ -1,0 +1,29 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+# This is the zone definition. replace example.com with your domain name
+zone "resto.salta.dc.fi.uba.ar" {
+        type master;
+        file "/etc/bind/zones/resto.salta.dc.fi.uba.ar.db";
+        };
+
+# This is the zone definition for reverse DNS. replace 0.168.192 with your network address in reverse notation.e.g mynetwork address is 10.54.5.66
+zone "5.54.10.in-addr.arpa" {
+     type master;
+     file "/etc/bind/zones/rev.5.54.10.in-addr.arpa";
+};
+
+zone "17.54.10.in-addr.arpa" {
+     type master;
+     file "/etc/bind/zones/rev.17.54.10.in-addr.arpa";
+};
+
+zone "9.54.10.in-addr.arpa" {
+     type master;
+     file "/etc/bind/zones/rev.9.54.10.in-addr.arpa";
+};

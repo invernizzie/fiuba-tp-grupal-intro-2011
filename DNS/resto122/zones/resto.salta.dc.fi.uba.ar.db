@@ -1,0 +1,27 @@
+
+resto.salta.dc.fi.uba.ar.      IN      SOA     ns3.resto.salta.dc.fi.uba.ar. admin.resto.salta.dc.fi.uba.ar. (
+                                                        2006081401
+                                                        28800
+                                                        3600
+                                                        604800
+                                                        38400
+ )
+
+resto.salta.dc.fi.uba.ar.      IN      NS              ns3.resto.salta.dc.fi.uba.ar.
+
+ns3 	    		         IN      A       10.54.5.46
+lapaz02		     	         IN      A       10.54.5.46
+lapaz01 	    	         IN      A       10.54.5.45
+lima01     	          		 IN      A       10.54.5.41
+lima02     	  		         IN      A       10.54.5.42
+montevideo01     	         IN      A       10.54.5.129
+montevideo02     	         IN      A       10.54.5.130
+montevideo03     	         IN      A       10.54.5.131
+mendoza01     	        	 IN      A       10.54.5.161
+mendoza02     	        	 IN      A       10.54.5.162
+asuncion02     	         	 IN      A       10.54.5.98
+asuncion04     	        	 IN      A       10.54.5.100
+quito01     	        	 IN      A       10.54.17.1
+quito02     	        	 IN      A       10.54.17.2
+caracas01     	        	 IN      A       10.54.9.129
+caracas04     	        	 IN      A       10.54.9.132
