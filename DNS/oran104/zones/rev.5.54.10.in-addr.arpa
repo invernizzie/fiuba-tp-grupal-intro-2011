@@ -7,5 +7,19 @@
 )
 
                     IN    NS     ns2.oran.salta.dc.fi.uba.ar.
-66                  IN    PTR    riodejaneiro02
-68		    IN    PTR	 riodejaneiro04
+
+66                  IN    CNAME  66.5.54.10.oran.reversa.
+68		    IN    CNAME	 68.5.54.10.oran.reversa.
+
+41		    IN    CNAME  41.5.54.10.resto.reversa.
+42		    IN    CNAME	 42.5.54.10.resto.reversa.
+45		    IN    CNAME	 45.5.54.10.resto.reversa.
+46		    IN    CNAME	 46.5.54.10.resto.reversa.
+98		    IN    CNAME	 98.5.54.10.resto.reversa.
+100		    IN    CNAME	 100.5.54.10.resto.reversa.
+129		    IN    CNAME	 129.5.54.10.resto.reversa.
+130		    IN    CNAME	 130.5.54.10.resto.reversa.
+131		    IN    CNAME	 131.5.54.10.resto.reversa.
+161		    IN    CNAME	 161.5.54.10.resto.reversa.
+162		    IN    CNAME	 162.5.54.10.resto.reversa.
+

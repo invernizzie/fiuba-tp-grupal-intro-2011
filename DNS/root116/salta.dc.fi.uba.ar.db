@@ -1,0 +1,22 @@
+$TTL 604800
+salta.dc.fi.uba.ar.	IN	SOA	ns1.salta.dc.fi.uba.ar. admin.admin.dc.fi.uba.ar. (
+			   6000		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+		IN	NS	ns1.salta.dc.fi.uba.ar.
+ns1		IN	A	10.54.131
+
+$ORIGIN resto.salta.dc.fi.uba.ar.
+; Zona resto
+@		IN	NS	ns3.resto.salta.dc.fi.uba.ar.
+ns3		IN	A	10.54.46
+
+$ORIGIN oran.salta.dc.fi.uba.ar.
+; Zona tigre
+@		IN	NS	ns2.oran.salta.dc.fi.uba.ar.
+ns2		IN	A	10.54.66
+
+

@@ -12,6 +12,12 @@ zone "resto.salta.dc.fi.uba.ar" {
         file "/etc/bind/zones/resto.salta.dc.fi.uba.ar.db";
         };
 
+// Por si tiene que ir a la otra zona
+zone "oran.salta.dc.fi.uba.ar" {
+    type forward;
+    forwarders { 10.54.5.131; };
+};
+
 # This is the zone definition for reverse DNS. replace 0.168.192 with your network address in reverse notation.e.g mynetwork address is 10.54.5.66
 zone "5.54.10.in-addr.arpa" {
      type master;
@@ -26,4 +32,19 @@ zone "17.54.10.in-addr.arpa" {
 zone "9.54.10.in-addr.arpa" {
      type master;
      file "/etc/bind/zones/rev.9.54.10.in-addr.arpa";
+};
+
+zone "5.54.10.resto.reversa" {
+     type master;
+     file "/etc/bind/zones/rev.5.54.10.resto.reversa";
+};
+
+zone "oran.reversa" {
+    type forward;
+    forwarders { 10.54.5.131; };
+};
+
+zone "in-addr.arpa" {
+    type forward;
+    forwarders { 10.54.5.131; };
 };

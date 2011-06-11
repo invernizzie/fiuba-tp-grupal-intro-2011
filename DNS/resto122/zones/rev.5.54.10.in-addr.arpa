@@ -7,15 +7,18 @@
 )
 
                     IN    NS     ns3.resto.salta.dc.fi.uba.ar.
-41                  IN    PTR    lima01
-42		    		IN    PTR	 lima02
-45		    		IN    PTR	 lapaz01
-46		    		IN    PTR	 lapaz02
-98		    		IN    PTR	 asuncion02
-100		    		IN    PTR	 asuncion04
-129		    		IN    PTR	 montevideo01
-130		    		IN    PTR	 montevideo02
-131		    		IN    PTR	 montevideo03
-161		    		IN    PTR	 mendoza01
-162		    		IN    PTR	 mendoza02
+41                  IN    CNAME    41.5.54.10.resto.reversa.
+42		    		IN    CNAME	 42.5.54.10.resto.reversa.
+45		    		IN    CNAME	 45.5.54.10.resto.reversa.
+46		    		IN    CNAME	 46.5.54.10.resto.reversa.
+98		    		IN    CNAME	 98.5.54.10.resto.reversa.
+100		    		IN    CNAME	 100.5.54.10.resto.reversa.
+129		    		IN    CNAME	 129.5.54.10.resto.reversa.
+130		    		IN    CNAME	 130.5.54.10.resto.reversa.
+131		    		IN    CNAME	 131.5.54.10.resto.reversa.
+161		    		IN    CNAME	 161.5.54.10.resto.reversa.
+162		    		IN    CNAME	 162.5.54.10.resto.reversa.
+
+66                              IN    CNAME	 66.5.54.10.oran.reversa.
+68                              IN    CNAME	 68.5.54.10.oran.reversa.
 

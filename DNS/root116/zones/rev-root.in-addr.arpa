@@ -1,0 +1,20 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	salta.dc.fi.uba.ar. root(
+			      1		; Serial
+			     30		; Refresh
+			     30		; Retry
+			     60		; Expire
+			     1h
+			     )
+
+@		IN	NS     salta.dc.fi.uba.ar.
+
+$ORIGIN 9.54.10.in-addr.arpa.
+@		IN	NS	ns3.resto.bsas.dc.fi.uba.ar.
+ns3		IN	A	10.54.5.46
+
+
+

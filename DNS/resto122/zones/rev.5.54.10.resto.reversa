@@ -1,0 +1,21 @@
+@ IN SOA ns3.resto.salta.dc.fi.uba.ar. admin.resto.salta.dc.fi.uba.ar. (
+                        2006081401;
+                        28800; 
+                        604800;
+                        604800;
+                        86400 
+)
+
+                    IN    NS     ns3.resto.salta.dc.fi.uba.ar.
+41                  IN    PTR      lima01.resto.salta.dc.fi.uba.ar.
+42		    		IN    PTR	 lima02.resto.salta.dc.fi.uba.ar.
+45		    		IN    PTR	 lapaz01.resto.salta.dc.fi.uba.ar.
+46		    		IN    PTR	 lapaz02.resto.salta.dc.fi.uba.ar.
+98		    		IN    PTR	 asuncion02.resto.salta.dc.fi.uba.ar.
+100		    		IN    PTR	 asuncion04.resto.salta.dc.fi.uba.ar.
+129		    		IN    PTR	 montevideo01.resto.salta.dc.fi.uba.ar.
+130		    		IN    PTR	 montevideo02.resto.salta.dc.fi.uba.ar.
+131		    		IN    PTR	 montevideo03.resto.salta.dc.fi.uba.ar.
+161		    		IN    PTR	 mendoza01.resto.salta.dc.fi.uba.ar.
+162		    		IN    PTR	 mendoza02.resto.salta.dc.fi.uba.ar.
+

@@ -1,12 +1,12 @@
 #! /bin/bash
 
 mkdir /etc/BackupBind
-cp /etc/bind/* /etc/BackupBind/ -r --backup=numbered
+cp /etc/bind/* /etc/BackupBind/ --backup=numbered
 
 mkdir /etc/bind/zones
 
 echo "Copiando los archivos del server"
-cp ./oran104/* /etc/bind/ -r
+cp ./root116/* /etc/bind/ -r
 
 echo "Habilitamos el "
 chmod 777 -R /etc/bind/
