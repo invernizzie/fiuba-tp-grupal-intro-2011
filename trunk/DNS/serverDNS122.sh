@@ -1,7 +1,7 @@
 #! /bin/bash
 
 mkdir /etc/BackupBind
-mv /etc/bind/* /etc/BackupBind/
+cp /etc/bind/* /etc/BackupBind/ -r --backup=numbered
 
 mkdir /etc/bind/zones
 

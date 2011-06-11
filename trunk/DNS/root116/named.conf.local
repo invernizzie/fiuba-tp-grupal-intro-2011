@@ -1,0 +1,66 @@
+
+zone "resto.salta.dc.fi.uba.ar" {
+    type forward;
+    forwarders { 10.54.5.46; };
+};
+
+zone "oran.salta.dc.fi.uba.ar" {
+    type forward;
+    forwarders { 10.54.5.66; };
+};
+
+// REDIRECCIONAMIENTO DE INVERSAS DE ORAN
+
+// RIO DE JANEIRO
+zone "5.54.10.oran.reversa" {
+    type forward;
+    forwarders { 10.54.5.66; };
+};
+
+
+// Buenos Aires
+zone "8.168.192.in-addr.arpa"  {
+    type forward;
+    forwarders { 10.54.5.66; };
+};
+
+// BOGOTA
+zone "6.11.10.in-addr.arpa"  {
+    type forward;
+    forwarders { 10.54.5.66; };
+};
+
+// SAN PABLO
+zone "6.31.10.in-addr.arpa"  {
+    type forward;
+    forwarders { 10.54.5.66; };
+};
+
+// REDIRECCIONAMIENTO DE INVERSAS DE RESTO
+
+// CARACAS
+zone "9.54.10.in-addr.arpa" {
+    type forward;
+    forwarders { 10.54.5.46; };
+};
+
+// QUITO
+zone "17.54.10.in-addr.arpa" {
+    type forward;
+    forwarders { 10.54.5.46; };
+};
+
+// LIMA, MONTEVIDEO, ASUNCION, LAPAZ, MENDOZA
+zone "5.54.10.resto.reversa" {
+    type forward;
+    forwarders { 10.54.5.46; };
+};
+
+zone "in-addr.arpa" {
+        type master;
+	notify no;
+	file "/etc/bind/zones/rev-root.in-addr.arpa";
+};
+
+
+
